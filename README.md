@@ -50,6 +50,6 @@ display(HTML(html_code))`
 
 ### 🤖 AI Support Explanation
 AI digunakan dalam proyek ini untuk:
-• Menghasilkan HTML dan CSS dari prompt teks, bukan ditulis manual oleh pengguna.
-• Menginterpretasi permintaan pengguna seperti "buat CV dengan biodata dan keterampilan" menjadi kode siap pakai.
-• Meniru format dan gaya dari contoh (few-shot) yang diberikan, meningkatkan konsistensi dan kualitas.
+- Menghasilkan HTML dan CSS dari prompt teks, bukan ditulis manual oleh pengguna.
+- Menginterpretasi permintaan pengguna seperti "buat CV dengan biodata dan keterampilan" menjadi kode siap pakai.
+- Meniru format dan gaya dari contoh (few-shot) yang diberikan, meningkatkan konsistensi dan kualitas.
