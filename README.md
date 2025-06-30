@@ -5,20 +5,20 @@ AI-Generated Personal CV Page with IBM Granite
 Proyek ini menggunakan model IBM Granite (Granite-3.3-8b-Instruct) untuk menghasilkan HTML dan CSS secara otomatis guna membangun sebuah halaman CV pribadi yang responsif dan modern. Proyek dijalankan melalui Google Colab dengan bantuan LangChain, Replicate, dan utilitas dari komunitas IBM Granite.
 
 ### 💻 Technologies Used
-• IBM Granite 3.3 8B Instruct (via Replicate API)
-• LangChain Community
-• HTML & CSS
-• Bootstrap
-• Google Colab
-• FontAwesome & Bootstrap Icons
+- IBM Granite 3.3 8B Instruct (via Replicate API)
+- LangChain Community
+- HTML & CSS
+- Bootstrap
+- Google Colab
+- FontAwesome & Bootstrap Icons
 
 ### 🌟 Features
-• Header dengan nama pengguna dan navbar responsif
-• Tabel biodata diri lengkap
-• Daftar riwayat pendidikan
-• Bagian keterampilan dengan progress bar visual
-• Desain bersih dan mobile-friendly
-• Semua kode HTML dan CSS dihasilkan oleh AI berdasarkan prompt
+- Header dengan nama pengguna dan navbar responsif
+- Tabel biodata diri lengkap
+- Daftar riwayat pendidikan
+- Bagian keterampilan dengan progress bar visual
+- Desain bersih dan mobile-friendly
+- Semua kode HTML dan CSS dihasilkan oleh AI berdasarkan prompt
 
 ### ⚙️ Setup Instructions
 1. Pasang dependensi
