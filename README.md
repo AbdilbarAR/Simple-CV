@@ -29,12 +29,11 @@ Proyek ini menggunakan model IBM Granite (Granite-3.3-8b-Instruct) untuk menghas
 2. Inisialisasi model Granite
    `from ibm_granite_community.notebook_utils import get_env_var
 from langchain_community.llms import Replicate`
-
-`model = Replicate(
-    model="ibm-granite/granite-3.3-8b-instruct",
-    replicate_api_token=get_env_var('REPLICATE_API_TOKEN'),
-    model_kwargs={"max_tokens": 1024, "temperature": 0.2},
-)`
+    `model = Replicate(
+        model="ibm-granite/granite-3.3-8b-instruct",
+        replicate_api_token=get_env_var('REPLICATE_API_TOKEN'),
+        model_kwargs={"max_tokens": 1024, "temperature": 0.2},
+    )`
 
 3. Siapkan prompt dan contoh (few-shot)
 • Gunakan fewshot_prompt() untuk memberi tahu model jenis output yang diinginkan.
